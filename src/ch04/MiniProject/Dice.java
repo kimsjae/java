@@ -1,4 +1,4 @@
-package ch04.MiniProject;
+package ch04.miniProject;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
