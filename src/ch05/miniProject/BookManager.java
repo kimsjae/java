@@ -107,7 +107,10 @@ public class BookManager {
     }
 
     public static void main(String[] args) throws IOException {
-        printMenu(); // 메뉴 실행
-        bw.close();
+        try {
+            printMenu(); // 메뉴 실행
+        } finally {
+            BookManager.bw.close();
+        }
     }
 }
