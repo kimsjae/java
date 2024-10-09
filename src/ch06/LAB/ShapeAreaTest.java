@@ -1,4 +1,4 @@
-package ch06.LAB;
+package ch06.lab;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
